@@ -14,5 +14,11 @@ http://maven.apache.org/
 % mvn spring-boot:run
 ``` 
 
+## 例子
 
+1、MVC
+
+实现 Get 请求和参数获取
+
+源代码：[src/main/java/com/xingchaovv/spring/demo01/controllers/HelloController.java]()
 
