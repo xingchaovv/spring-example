@@ -1,4 +1,4 @@
-package com.xingchaovv.spring.demo01.datasource;
+package chao.spring.demo.first.datasource;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;

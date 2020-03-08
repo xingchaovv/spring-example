@@ -1,6 +1,6 @@
-package com.xingchaovv.spring.demo01;
+package chao.spring.demo.first;
 
-import com.xingchaovv.spring.demo01.datasource.DataSourceOne;
+import chao.spring.demo.first.datasource.DataSourceOne;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;

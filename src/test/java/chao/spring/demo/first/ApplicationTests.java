@@ -1,4 +1,4 @@
-package com.xingchaovv.spring.demo01;
+package chao.spring.demo.first;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

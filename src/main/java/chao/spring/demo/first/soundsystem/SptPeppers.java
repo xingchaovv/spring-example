@@ -1,4 +1,4 @@
-package com.xingchaovv.spring.demo01.soundsystem;
+package chao.spring.demo.first.soundsystem;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Component;

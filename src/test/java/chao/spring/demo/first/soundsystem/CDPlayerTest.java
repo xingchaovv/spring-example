@@ -1,4 +1,4 @@
-package com.xingchaovv.spring.demo01.soundsystem;
+package chao.spring.demo.first.soundsystem;
 
 import org.junit.Test;
 import static org.junit.Assert.*;

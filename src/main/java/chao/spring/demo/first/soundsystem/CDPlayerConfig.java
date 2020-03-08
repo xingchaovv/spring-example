@@ -1,4 +1,4 @@
-package com.xingchaovv.spring.demo01.soundsystem;
+package chao.spring.demo.first.soundsystem;
 
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;

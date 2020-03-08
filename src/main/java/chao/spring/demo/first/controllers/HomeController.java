@@ -1,4 +1,4 @@
-package com.xingchaovv.spring.demo01.controllers;
+package chao.spring.demo.first.controllers;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;

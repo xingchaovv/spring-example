@@ -1,4 +1,4 @@
-package com.xingchaovv.spring.demo01;
+package chao.spring.demo.first;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
