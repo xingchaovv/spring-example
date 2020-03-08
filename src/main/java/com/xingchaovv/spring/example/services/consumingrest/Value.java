@@ -1,4 +1,4 @@
-package com.xingchaovv.spring.example.features.consumingrest;
+package com.xingchaovv.spring.example.services.consumingrest;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 

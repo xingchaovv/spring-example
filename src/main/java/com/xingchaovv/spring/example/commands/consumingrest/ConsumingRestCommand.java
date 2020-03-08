@@ -1,6 +1,6 @@
-package com.xingchaovv.spring.example.commands;
+package com.xingchaovv.spring.example.commands.consumingrest;
 
-import com.xingchaovv.spring.example.features.consumingrest.Quote;
+import com.xingchaovv.spring.example.services.consumingrest.Quote;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;

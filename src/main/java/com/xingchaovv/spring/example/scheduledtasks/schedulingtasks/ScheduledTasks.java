@@ -1,4 +1,4 @@
-package com.xingchaovv.spring.example.features.schedulingtasks;
+package com.xingchaovv.spring.example.scheduledtasks.schedulingtasks;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Component;

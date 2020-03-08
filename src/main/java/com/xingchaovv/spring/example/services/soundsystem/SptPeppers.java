@@ -1,4 +1,4 @@
-package com.xingchaovv.spring.example.soundsystem;
+package com.xingchaovv.spring.example.services.soundsystem;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Component;

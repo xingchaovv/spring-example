@@ -1,4 +1,4 @@
-package com.xingchaovv.spring.example.soundsystem;
+package com.xingchaovv.spring.example.services.soundsystem;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;

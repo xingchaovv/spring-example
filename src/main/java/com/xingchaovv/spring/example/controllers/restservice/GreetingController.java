@@ -1,5 +1,6 @@
-package com.xingchaovv.spring.example.features.restservice;
+package com.xingchaovv.spring.example.controllers.restservice;
 
+import com.xingchaovv.spring.example.services.restservice.Greeting;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;

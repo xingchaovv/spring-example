@@ -1,4 +1,4 @@
-package com.xingchaovv.spring.example.features.restservice;
+package com.xingchaovv.spring.example.services.restservice;
 
 public class Greeting {
 
