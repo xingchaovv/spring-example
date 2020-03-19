@@ -12,9 +12,9 @@ import org.springframework.scheduling.annotation.EnableScheduling;
  */
 @SpringBootApplication(
 		exclude = {
-				DataSourceAutoConfiguration.class,
-				DataSourceTransactionManagerAutoConfiguration.class,
-				JdbcTemplateAutoConfiguration.class,
+				// DataSourceAutoConfiguration.class,
+				// DataSourceTransactionManagerAutoConfiguration.class,
+				// JdbcTemplateAutoConfiguration.class,
 		}
 )
 @EnableScheduling
