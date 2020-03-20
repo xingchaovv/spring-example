@@ -1,21 +1,20 @@
-package com.xingchaovv.spring.example.modules.dependencylookup;
+package com.xingchaovv.spring.example.modules.dependency.lookup;
 
-import com.xingchaovv.spring.example.modules.dependencylookup.domain.User;
+import com.xingchaovv.spring.example.modules.dependency.annotation.Super;
+import com.xingchaovv.spring.example.modules.dependency.domain.User;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.beans.factory.BeanFactory;
 import org.springframework.beans.factory.InitializingBean;
 import org.springframework.beans.factory.ListableBeanFactory;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.springframework.stereotype.Component;
 
-import java.util.List;
 import java.util.Map;
 
 @Component
 @Slf4j
 public class Lookup implements InitializingBean {
 
+    @SuppressWarnings("unchecked")
     public void afterPropertiesSet() {
         // 配置 XML 文件
         // 启动 Spring 上下文
@@ -28,7 +27,11 @@ public class Lookup implements InitializingBean {
         // log.info(user.toString());
 
         // 集合查找
-        Map<String, User> users = beanFactory.getBeansOfType(User.class);
-        log.info(users.toString());
+        Map<String, User> users1 = beanFactory.getBeansOfType(User.class);
+        log.info(users1.toString());
+
+        // 通过注解查找
+        Map<String, User> users2 = (Map) beanFactory.getBeansWithAnnotation(Super.class);
+        log.info(users2.toString());
     }
 }

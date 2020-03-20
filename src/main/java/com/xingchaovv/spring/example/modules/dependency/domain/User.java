@@ -1,4 +1,4 @@
-package com.xingchaovv.spring.example.modules.dependencylookup.domain;
+package com.xingchaovv.spring.example.modules.dependency.domain;
 
 public class User {
 
@@ -22,6 +22,6 @@ public class User {
     }
 
     public String toString() {
-        return String.format("HashCode: %s, Id: %d, name: %s", hashCode(), getId(), getName());
+        return String.format("User, HashCode: %s, Id: %d, name: %s", hashCode(), getId(), getName());
     }
 }
