@@ -14,4 +14,6 @@
     <bean id="superUser1" class="com.xingchaovv.spring.example.modules.dependency.domain.SuperUser" parent="user1">
         <property name="address" value="北京" />
     </bean>
+
+    <alias name="user1" alias="sameUser1" />
 </beans>

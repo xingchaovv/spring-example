@@ -22,6 +22,9 @@ public class Lookup implements InitializingBean {
         User user1 = (User) beanFactory.getBean("user1");
         log.info(user1.toString());
 
+        User sameUser1 = (User) beanFactory.getBean("sameUser1");
+        log.info("Same user: " + (user1 == sameUser1));
+
         // 根据类型查找
         // User user = beanFactory.getBean(User.class);
         // log.info(user.toString());
