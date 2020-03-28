@@ -1,4 +1,4 @@
-package com.xingchaovv.spring.example.DataSourceExample;
+package SpringExample.DataSourceExample;
 
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -15,6 +15,6 @@ public class HomeController {
 
     @RequestMapping("/")
     public String home() {
-        return jdbcTemplate.queryForMap("select * from foo limit 1").toString();
+        return jdbcTemplate.queryForMap("select * from foo order by rand() limit 1").toString();
     }
 }

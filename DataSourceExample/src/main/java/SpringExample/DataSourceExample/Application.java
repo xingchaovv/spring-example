@@ -1,4 +1,4 @@
-package com.xingchaovv.spring.example.DataSourceExample;
+package SpringExample.DataSourceExample;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.SpringApplication;
