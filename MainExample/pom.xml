@@ -9,6 +9,7 @@
 	<modules>
 		<module>DataSourceExample</module>
         <module>../MultiDataSourceExample</module>
+        <module>../SimpleJdbcExample</module>
     </modules>
 
 	<properties>
