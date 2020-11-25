@@ -1,4 +1,4 @@
-package SimpleJdbcExample;
+package simple.jdbc;
 
 public class Foo {
 
