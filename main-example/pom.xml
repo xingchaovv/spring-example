@@ -7,9 +7,7 @@
 	<packaging>pom</packaging>
 	<version>0.0.1-SNAPSHOT</version>
 	<modules>
-		<module>DataSourceExample</module>
         <module>../MultiDataSourceExample</module>
-        <module>../SimpleJdbcExample</module>
     </modules>
 
 	<properties>
@@ -60,6 +58,20 @@
 			<groupId>com.h2database</groupId>
 			<artifactId>h2</artifactId>
 			<scope>runtime</scope>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/joda-time/joda-time -->
+		<dependency>
+			<groupId>joda-time</groupId>
+			<artifactId>joda-time</artifactId>
+			<version>2.10.8</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<version>1.18.16</version>
+			<scope>provided</scope>
 		</dependency>
 
 		<dependency>
