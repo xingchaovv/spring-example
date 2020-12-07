@@ -8,7 +8,7 @@
     <import resource="dependency-lookup-context.xml" />
 
     <bean id="userRepository"
-        class="com.xingchaovv.spring.example.modules.dependency.repository.UserRepository"
+        class="chao.spring.example.main.modules.dependency.repository.UserRepository"
         autowire="byType">
         <!-- 手动配置
         <property name="users">
