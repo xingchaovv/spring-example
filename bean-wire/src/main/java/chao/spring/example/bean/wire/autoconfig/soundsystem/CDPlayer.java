@@ -1,4 +1,4 @@
-package chao.spring.example.bean.wire.soundsystem;
+package chao.spring.example.bean.wire.autoconfig.soundsystem;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;

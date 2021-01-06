@@ -1,4 +1,4 @@
-package chao.spring.example.bean.wire.soundsystem;
+package chao.spring.example.bean.wire.autoconfig.soundsystem;
 
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
