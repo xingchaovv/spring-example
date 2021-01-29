@@ -6,4 +6,7 @@
 
     <import resource="service.xml"/>
     <import resource="dao.xml"/>
+
+    <bean id="myBeanFactory"
+          class="com.xingchaovv.spring.example.context01.container01.dao.MyBeanFactory"/>
 </beans>

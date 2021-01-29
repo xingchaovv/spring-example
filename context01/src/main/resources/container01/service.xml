@@ -4,7 +4,9 @@
        xsi:schemaLocation="
         http://www.springframework.org/schema/beans https://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean id="petStoreService" class="com.xingchaovv.spring.example.context01.container01.service.PetStoreService">
+    <bean id="petStoreService" name="petStoreSv1,petStoreSv2"
+          class="com.xingchaovv.spring.example.context01.container01.service.PetStoreService">
         <property name="accountDao" ref="accountDao"/>
     </bean>
+    <alias name="petStoreService" alias="petStoreSv3"/>
 </beans>
