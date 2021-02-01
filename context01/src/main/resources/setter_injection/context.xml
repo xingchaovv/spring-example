@@ -4,17 +4,17 @@
        xsi:schemaLocation="
         http://www.springframework.org/schema/beans https://www.springframework.org/schema/beans/spring-beans.xsd">
     <bean id="myProduct"
-        class="example.context01.setter_injection.entity.Product"
+        class="setter_injection.entity.Product"
     />
     <bean id="myUser"
-        class="example.context01.setter_injection.entity.User"
+        class="setter_injection.entity.User"
     />
-    <bean id="order1" class="example.context01.setter_injection.entity.Order">
+    <bean id="order1" class="setter_injection.entity.Order">
         <property name="product" ref="myProduct"/>
         <property name="user" ref="myUser"/>
         <property name="remark" value="this is remark of order"/>
     </bean>
-    <bean id="order2" class="example.context01.setter_injection.entity.Order">
+    <bean id="order2" class="setter_injection.entity.Order">
         <property name="product" ref="myProduct"/>
     </bean>
 </beans>

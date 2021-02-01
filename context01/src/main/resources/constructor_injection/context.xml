@@ -4,27 +4,27 @@
        xsi:schemaLocation="
         http://www.springframework.org/schema/beans https://www.springframework.org/schema/beans/spring-beans.xsd">
     <bean id="myProduct"
-        class="example.context01.constructor_injection.entity.Product"
+        class="constructor_injection.entity.Product"
     />
     <bean id="myUser"
-        class="example.context01.constructor_injection.entity.User"
+        class="constructor_injection.entity.User"
     />
-    <bean class="example.context01.constructor_injection.entity.Order">
+    <bean class="constructor_injection.entity.Order">
         <constructor-arg ref="myProduct"/>
         <constructor-arg ref="myUser"/>
     </bean>
 
-    <bean id="myCar" class="example.context01.constructor_injection.entity.Car">
+    <bean id="myCar" class="constructor_injection.entity.Car">
         <constructor-arg type="java.lang.String" value="myCar"/>
         <constructor-arg type="int" value="5"/>
     </bean>
 
-    <bean id="mySecondCar" class="example.context01.constructor_injection.entity.Car">
+    <bean id="mySecondCar" class="constructor_injection.entity.Car">
         <constructor-arg index="0" value="mySecondCar"/>
         <constructor-arg index="1" value="6"/>
     </bean>
 
-    <bean id="myThirdCar" class="example.context01.constructor_injection.entity.Car">
+    <bean id="myThirdCar" class="constructor_injection.entity.Car">
         <constructor-arg name="name" value="myThirdCar"/>
         <constructor-arg name="numOfTire" value="6"/>
     </bean>
