@@ -4,27 +4,27 @@
        xsi:schemaLocation="
         http://www.springframework.org/schema/beans https://www.springframework.org/schema/beans/spring-beans.xsd">
     <bean id="myProduct"
-        class="com.xingchaovv.spring.example.context01.constructor_injection.entity.Product"
+        class="example.context01.constructor_injection.entity.Product"
     />
     <bean id="myUser"
-        class="com.xingchaovv.spring.example.context01.constructor_injection.entity.User"
+        class="example.context01.constructor_injection.entity.User"
     />
-    <bean class="com.xingchaovv.spring.example.context01.constructor_injection.entity.Order">
+    <bean class="example.context01.constructor_injection.entity.Order">
         <constructor-arg ref="myProduct"/>
         <constructor-arg ref="myUser"/>
     </bean>
 
-    <bean id="myCar" class="com.xingchaovv.spring.example.context01.constructor_injection.entity.Car">
+    <bean id="myCar" class="example.context01.constructor_injection.entity.Car">
         <constructor-arg type="java.lang.String" value="myCar"/>
         <constructor-arg type="int" value="5"/>
     </bean>
 
-    <bean id="mySecondCar" class="com.xingchaovv.spring.example.context01.constructor_injection.entity.Car">
+    <bean id="mySecondCar" class="example.context01.constructor_injection.entity.Car">
         <constructor-arg index="0" value="mySecondCar"/>
         <constructor-arg index="1" value="6"/>
     </bean>
 
-    <bean id="myThirdCar" class="com.xingchaovv.spring.example.context01.constructor_injection.entity.Car">
+    <bean id="myThirdCar" class="example.context01.constructor_injection.entity.Car">
         <constructor-arg name="name" value="myThirdCar"/>
         <constructor-arg name="numOfTire" value="6"/>
     </bean>

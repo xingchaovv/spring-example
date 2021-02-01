@@ -4,9 +4,9 @@
        xsi:schemaLocation="
         http://www.springframework.org/schema/beans https://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean id="accountDao" class="com.xingchaovv.spring.example.context01.container01.dao.AccountDao"/>
+    <bean id="accountDao" class="example.context01.container01.dao.AccountDao"/>
     <bean id="legacyOrderDao"
-        class="com.xingchaovv.spring.example.context01.container01.dao.LegacyOrderDaoFactory"
+        class="example.context01.container01.dao.LegacyOrderDaoFactory"
         factory-method="obtainDao"
     />
     <bean id="legacyOrderDaoV2"
