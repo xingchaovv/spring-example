@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans https://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id="myProduct"
+        class="com.xingchaovv.spring.example.context01.setter_injection.entity.Product"
+    />
+    <bean id="myUser"
+        class="com.xingchaovv.spring.example.context01.setter_injection.entity.User"
+    />
+    <bean id="order1" class="com.xingchaovv.spring.example.context01.setter_injection.entity.Order">
+        <property name="product" ref="myProduct"/>
+        <property name="user" ref="myUser"/>
+        <property name="remark" value="this is remark of order"/>
+    </bean>
+    <bean id="order2" class="com.xingchaovv.spring.example.context01.setter_injection.entity.Order">
+        <property name="product" ref="myProduct"/>
+    </bean>
+</beans>
