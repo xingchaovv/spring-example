@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="productA" class="depends_on.entity.Product"/>
+    <bean id="productB" class="depends_on.entity.Product"/>
+    <bean id="order1" class="depends_on.entity.Order" depends-on="productA,productB"/>
+</beans>

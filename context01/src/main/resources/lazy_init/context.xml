@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="productA" class="lazy_init.entity.Product"/>
+    <bean id="productB" class="lazy_init.entity.Product" lazy-init="true"/>
+    <bean id="productC" class="lazy_init.entity.Product" lazy-init="true"/>
+
+    <bean id="order1" class="lazy_init.entity.Order">
+        <property name="product1" ref="productA"/>
+        <property name="product2" ref="productB"/>
+    </bean>
+</beans>
