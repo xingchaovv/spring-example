@@ -1,6 +1,6 @@
 package com.example.spring.web.web.filter;
 
-import com.example.spring.web.http.CustomParamStyleRequest;
+import com.example.spring.web.web.servlet.CustomParamStyleRequest;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.lang.NonNull;
 import org.springframework.stereotype.Component;
