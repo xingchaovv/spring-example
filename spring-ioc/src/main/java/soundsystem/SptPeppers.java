@@ -1,6 +1,5 @@
 package soundsystem;
 
-import chao.spring.example.bean.wire.javaconfig.soundsystem2.CompactDisc;
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j

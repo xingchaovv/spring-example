@@ -2,6 +2,7 @@ package soundsystem1;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Component;
+import soundsystem.CompactDisc;
 
 @Component("lonelyHeartsClub")
 @Slf4j

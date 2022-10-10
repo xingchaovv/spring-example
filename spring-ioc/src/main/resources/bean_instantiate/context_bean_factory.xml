@@ -5,7 +5,7 @@
         http://www.springframework.org/schema/beans https://www.springframework.org/schema/beans/spring-beans.xsd">
 
     <bean id="myBeanFactory"
-          class="bean_instantiate.dao.MyBeanFactory"/>
+          class="application_context.class_path_xml_application_context.example01.dao.MyBeanFactory"/>
     <bean id="daoByBeanFactory"
           factory-bean="myBeanFactory"
           factory-method="obtainDao"

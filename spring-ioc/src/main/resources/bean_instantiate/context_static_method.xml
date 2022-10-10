@@ -5,7 +5,7 @@
         http://www.springframework.org/schema/beans https://www.springframework.org/schema/beans/spring-beans.xsd">
 
     <bean id="daoByStaticMethod"
-          class="bean_instantiate.dao.LegacyOrderDaoFactory"
+          class="application_context.class_path_xml_application_context.example01.dao.OrderFactory"
           factory-method="obtainDao"
     />
 </beans>
