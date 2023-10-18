@@ -1,24 +1,11 @@
-# spring-example
+# Spring 框架学习示例
 
-Spring 框架学习项目。
+## example01
 
-## 项目运行
+1. 构建支持注解配置的应用上下文 AnnotationConfigApplicationContext
+2. 使用组件扫描注解 @ComponentScan
+3. 使用组件注解 @Component
 
-1、安装 Maven
+## example52
 
-http://maven.apache.org/
-
-2、命令行运行
-
-```$xslt
-% mvn spring-boot:run
-``` 
-
-## 例子
-
-1、MVC
-
-实现 Get 请求和参数获取
-
-源代码：[src/main/java/com/xingchaovv/spring/demo01/controllers/HelloController.java]()
-
+1. CamelParamRequestWrapper 转换下划线参数为驼峰风格的 HttpServletRequest 实现
