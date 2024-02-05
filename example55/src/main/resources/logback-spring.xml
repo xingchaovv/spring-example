@@ -1,0 +1,7 @@
+<configuration>
+    <!-- 配置日志路径目录 LOG_PATH -->
+    <property name="LOG_PATH" value="${user.home}/logs/spring_example_example55"/>
+    <!-- Include Spring Boot's default logback configuration -->
+    <include resource="org/springframework/boot/logging/logback/base.xml"/>
+
+</configuration>
