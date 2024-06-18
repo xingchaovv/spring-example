@@ -22,3 +22,8 @@
 ## example91
 
 1. 脚本 start.sh：启动一个编译好的 Spring Jar，使用 nohup 命令。
+
+## example02
+
+1. 一个 RestControllerAdvice 例子，实现了对于常见异常的处理。
+2. 
